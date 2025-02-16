@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="header">
+        <div class="header-items">
+          <div><a href="#profile-section">About</a></div>
+          <div><a href="#services-sections">Services</a></div>
+          <div><a href="#message-container">Contact Us</a></div>
+        </div>
+      </div>
+      <div id="profile-section" class="profile-section">
+        <div class="profile-image">
+          <img
+            src="/Images/ShadowImage.png"
+            alt="image"
+            width="400"
+            height="400"
+          />
+        </div>
+        <div class="profile-details">
+          <h1>Alen George</h1>
+          <h3>React Django Developer</h3>
+          <h5>-Build Your own Reality</h5>
+        </div>
+      </div>
+      <div id="services-sections" class="services-sections">
+        <p class="services-title">Services</p>
+        <div class="service-cards">
+          <div class="card">
+            <img src="/Images/WebDevelopment.jpeg" alt="Web Development" />
+            <p>Web Developer</p>
+          </div>
+          <div class="card">
+            <img src="/Images/Teacher.jpeg" alt="Teacher" />
+            <p>Teacher</p>
+          </div>
+          <div class="card">
+            <img src="/Images/Freelancer.jpeg" alt="Freelancer" />
+            <p>Freelancer</p>
+          </div>
+        </div>
+      </div>
+      <div id="message-container" class="message-container">
+        <textarea
+          class="message-box"
+          placeholder="Type your message..."
+        ></textarea>
+        <button class="submit-btn">Submit</button>
+      </div>
+    </div>
+  </body>
+</html>
